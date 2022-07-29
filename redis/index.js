@@ -15,7 +15,6 @@ const redis = new Redis();
 // })
 
 // redis.sadd('set', 1, 3, 5, 7);
-// redis.sadd('set', [1, 3, 5, 7]);
 
 // redis.pipeline().set('foo', 'bar').get('foo', function (err, result) {
 //     // result === 'bar'
